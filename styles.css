@@ -1,0 +1,176 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c4c4c4;
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 0.5em;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    border: 0.4em double rgba(46, 46, 46, 0.8);
+}
+
+/* Title */
+
+#title {
+    text-align: center;
+    font-size: 2.5em;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: underline overline blink 0.010em;
+    padding-top: 0.5em;
+}
+
+/* Title description */
+
+#title_description {
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    color: #2e2e2e;
+    margin: 1.5em 0 2.5em 0;
+}
+
+/* Image */
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#image {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+}
+
+#image:hover {
+    box-shadow: 8px 10px 10px 1px #000000;
+    transition: all 0.4s ease-in-out;
+}
+
+#img-caption {
+    max-width: 80%;
+    text-align: center;
+    font-size: 1em;
+    color: #2e2e2e;
+    margin: 3em auto;
+}
+
+/* Hr */
+
+hr {
+    width: 80%;
+    height: 0.125em;
+    background-color: #ffffff;
+    border: none;
+    margin: 0 auto;
+}
+
+/* Time Line */
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#tribute-info {
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.9);
+    margin: 2.5em auto;
+}
+
+ul {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.6;
+    padding-bottom: 2em;
+    border-bottom: 0.063em solid rgba(255, 255, 255, 0.5);
+}
+
+li {
+    display: list-item;
+    list-style: none;
+    color: #2e2e2e;
+    padding: 0.5em 0;
+}
+
+b {
+    color: #000000;
+}
+
+/* Famous Phrase */
+
+.text-center {
+    width: 100%;
+    text-align: center;
+    padding: 2em 0;
+}
+
+section>h4 {
+    margin-bottom: 1.5em;
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+}
+
+section p {
+    max-width: 80%;
+    margin: 1.5em auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #2e2e2e;
+    font-size: 0.9em;
+}
+
+section a {
+    text-decoration: none;
+}
+
+section a.btn {
+    font-size: 0.8em;
+    margin: 0 auto 1.5em auto;
+    border: 0.025em solid rgba(0, 0, 0, 0.5);
+    padding: 0.5em;
+}
+
+section a.btn:hover {
+    box-shadow: 8px 10px 10px 1px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease;
+}
+
+.font {
+    margin: 0 auto 1.5em auto;
+}
+
+/* Footer Wiki */
+
+footer h4 {
+    width: 100%;
+    max-width: 80%;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 0.5em 0 2em 0;
+    margin: 0 auto;
+}
